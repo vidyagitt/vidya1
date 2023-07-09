@@ -4,11 +4,11 @@ from django.http import HttpResponse
 
 def vidya(request):
     print("hi bro")
-    return HttpResponse('vidya is called and sagar also')
+    return HttpResponse('vidya is called and sagar also bro so sorry')
 
 
 def chaitu(request):
-    return HttpResponse('chaitu is called')
+    return HttpResponse('chaitu is called so')
 
 
 
