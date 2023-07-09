@@ -3,7 +3,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def vidya(request):
-    return HttpResponse('vidya is called')
+    print("hi bro")
+    return HttpResponse('vidya is called and sagar also')
 
 
 def chaitu(request):
